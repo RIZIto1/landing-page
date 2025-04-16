@@ -26,7 +26,7 @@ h4.logo{
     gap: 10px;
 }
 
-#formLogin{
+.Login{
     min-height: 30px;
     width: 100%;
     background-color: pink;
