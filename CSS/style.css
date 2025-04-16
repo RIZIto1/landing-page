@@ -1,7 +1,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    color: #333333; 
+    color: #012b1e; 
     margin: 0;
     background-color: #f4f4f4;
   }
@@ -26,7 +26,7 @@ body {
 .encabezado .texto h1 {
   font-size: 1.8em; 
   margin: 0;
-  color: #007bff;
+  color: #0a4735;
 }
 
 .linea{
