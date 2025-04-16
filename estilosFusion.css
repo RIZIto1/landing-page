@@ -51,7 +51,7 @@ h4.logo{
 #forLogin input[type="text"]:focus,
 #forLogin input[type="password"]:focus{/*focus es para las caracteristicas cuando se hace foco en un elemento*/
     outline: none;
-    border: 3px solid rgb(110, 31, 31);
+    border: 2px solid rgb(110, 31, 31);
     padding-left: len;
 }
 .actionLogin{
