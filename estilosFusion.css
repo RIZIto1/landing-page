@@ -22,5 +22,18 @@ h4.logo{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    align-items: center;
+    gap: 10px;
+}
+
+#formLogin{
+    min-height: 30px;
+    width: 100%;
+    background-color: pink;
+}
+
+.actionLogin{
+    min-height: 30px;
+    width: 100%;
+    background-color: rgb(148, 44, 61);
 }
