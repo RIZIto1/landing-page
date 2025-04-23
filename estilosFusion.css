@@ -6,6 +6,7 @@
 }
 body{
     height: 100vh;
+    font-size: 30px;
     background-color: rgb(114, 60, 60);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: grid;
