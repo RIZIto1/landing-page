@@ -7,23 +7,24 @@
     <title>Fusion Store</title>
 </head>
 <body>
-    <div class="contenedor-Login">
+    <main class="contenedor-Login">
         <h1 class="Logo">FUSION</h1>
 
-        <form class="loginFormContainer" action="./tarjetaProducto.html" method="POST">
-        <div class="formLogin">
-            <div class="formUserName">
-                <form class="loginFormContainer" action="./tarjetaProducto.html" method="POST">
-                </div>
-        </div>
         <form class="loginFormContainer">
-            <div id="formLogin">
-                <input type="text" id="usuario" name="usuario" placeholder="usuario" required>
-                <input type="password" id="constraseña" name="constraseña" placeholder="constraseña" required>
-
+            
+            <div id="login">
+                
+                <input type="text" id="user" name="usuario" placeholder="Usuario" required>
+                
+                <input type="password" id="contra" name="contraseña" placeholder="Contraseña" required>
             </div>
-            <div class="actionLogin"></div>
+            <div class="actionLogin">
+                <a href="tarjeta.html" class="btnLogin">Iniciar Sesion</a>
+                <span>¿Olvidates tu contraseña?
+                <a href="#">Recordar Contraseña</a></span>
+            </div>
+
         </form>
-    </div>
+    </main>
 </body>
 </html>
