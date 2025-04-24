@@ -68,7 +68,7 @@ h4.logo{
 .actionLogin input[type="submit"]{
     width: 800px;
     height: 50px;
-    border-radius: 10px;
+    border-radius: 9px;
     border: none;
     background-color: #000000;
     color: white;
@@ -76,7 +76,9 @@ h4.logo{
     align-items: center;
     margin-bottom: 40px ;
 }
-
+p{
+    font-size: 15px;
+}
 a{
     color: #ffffff;
 }
