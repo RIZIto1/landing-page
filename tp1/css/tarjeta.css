@@ -7,10 +7,11 @@
 /*flex-basis: 80px; la imagen ocupa el 80% del contenedor*/
 /*overflow: hidden;  Oculta el contenido que se sale del contenedor*/
 /*object-fit: cover;  Hace que la imagen ocupe todo el contenedor sin deformarse */
+/*box-sizing: border-box;  Hace que el padding no afecte al tamaño de la tarjeta*/
 
 
 *{
-    box-sizing: border-box; /* Hace que el padding no afecte al tamaño de la tarjeta*/
+    box-sizing: border-box; 
     margin: 0;
     padding: 0;
 }
@@ -19,6 +20,7 @@ body{
     background-color: white;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
     display: grid;
+    font-size: 20px;
     place-items: center;
 }
 img{
@@ -29,25 +31,58 @@ img{
 }
 
 .fotoProducto{
-    width: 90px; 
-    height: 90px; 
-    flex: 0 0 80px;
+    width: 120px; 
+    height: 120px; 
     border-radius: 6px;
     overflow: hidden; 
 }
 
 .producto{
-    width: 250px;
-    height: auto;
+    margin-top: 20px;
+    width: 400px;
+    height: 150px;
     background-color: rgb(114, 60, 60);
     padding: 10px;
     border-radius: 8px;
     display: flex;
-    gap: 10px;
 }
 
 .producto:nth-child(odd){
     background-color: rgb(114, 60, 60);
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
     flex-direction: row-reverse; 
+}
+
+
+.datoProducto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-transform: uppercase;
+    
+}
+
+.valoresProducto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    bottom: 10px;
+    left: 10px;
+}
+
+.valoracion{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    line-height: 30px;
+    text-align: center;
+    bottom: 10px;
+    left: -15px;
+}
+
+.columna{
+    display: flex;
+    flex-direction: column;
 }
