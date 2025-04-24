@@ -82,22 +82,26 @@ img{
     gap: 20px;
     color: white;
     align-items: center;
+    margin-bottom: 5px;
 }
 
 .valoracion{
     position: relative;
     color: black;
     background-color: rgb(255, 255, 255);
-    height: 30px;
+    height: 35px;
     border-radius: 50%;
     aspect-ratio: 1/1;
-    line-height: 30px;
+    line-height: 35px;
     text-align: center;
-    bottom: 10px;
-    left: -15px;
+    right: -40px;
 }
 
 .columna{
     display: flex;
     flex-direction: column;
+}
+
+.detalleProducto {
+    margin-top: 10px;
 }
